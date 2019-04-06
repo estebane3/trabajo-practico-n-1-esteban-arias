@@ -44,6 +44,7 @@ int main()
                 printf("\nDigite su opcion: ");
                 scanf("%d" , &opciones);
 
+
         switch(opciones)
         {
             case 1:
@@ -59,7 +60,13 @@ int main()
                 flag_2=1;
             break;
             case 3:
+                if(flag_1==0 && flag_2==0)
+                {
+                    printf("Error no se puede realizar la operacion porque falta ingresar operando");
+                }else{
+
                 printf("3.Calculando todas las operaciones, Ingrese 4 para mostrarlo \n");
+                }
             break;
             case 4:
                  if(flag_1==0 || flag_2==0)
