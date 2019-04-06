@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1554511743 source:c:\users\esteban arias\desktop\trabajo practico nº1 programacion-laboratorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"operaciones.h"
+
+1554513703 source:c:\users\esteban arias\desktop\trabajo practico nº1 programacion-laboratorio\operaciones.c
+	<stdio.h>
+	<stdlib.h>
+
+1554513703 c:\users\esteban arias\desktop\trabajo practico nº1 programacion-laboratorio\operaciones.h
+
